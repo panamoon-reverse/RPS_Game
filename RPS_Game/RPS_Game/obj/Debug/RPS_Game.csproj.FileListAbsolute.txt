@@ -1,0 +1,11 @@
+D:\RPS_Game\RPS_Game\RPS_Game\bin\Debug\RPS_Game.exe.config
+D:\RPS_Game\RPS_Game\RPS_Game\bin\Debug\RPS_Game.exe
+D:\RPS_Game\RPS_Game\RPS_Game\bin\Debug\RPS_Game.pdb
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.csproj.AssemblyReference.cache
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.csproj.SuggestedBindingRedirects.cache
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.Form1.resources
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.Properties.Resources.resources
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.csproj.GenerateResource.cache
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.csproj.CoreCompileInputs.cache
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.exe
+D:\RPS_Game\RPS_Game\RPS_Game\obj\Debug\RPS_Game.pdb

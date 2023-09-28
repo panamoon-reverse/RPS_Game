@@ -32,19 +32,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Peper_B = new System.Windows.Forms.Button();
             this.Scissors_B = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PlayerPictureBox = new System.Windows.Forms.PictureBox();
+            this.ComPictureBox = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Player_sc = new System.Windows.Forms.Label();
+            this.Com_sc = new System.Windows.Forms.Label();
+            this.Draw_sc = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayerPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ComPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Rock_B
@@ -83,21 +83,21 @@
             this.Scissors_B.Text = "Scissors";
             this.Scissors_B.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // PlayerPictureBox
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(404, 240);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.PlayerPictureBox.Location = new System.Drawing.Point(404, 240);
+            this.PlayerPictureBox.Name = "PlayerPictureBox";
+            this.PlayerPictureBox.Size = new System.Drawing.Size(100, 50);
+            this.PlayerPictureBox.TabIndex = 4;
+            this.PlayerPictureBox.TabStop = false;
             // 
-            // pictureBox2
+            // ComPictureBox
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(404, 86);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.ComPictureBox.Location = new System.Drawing.Point(404, 86);
+            this.ComPictureBox.Name = "ComPictureBox";
+            this.ComPictureBox.Size = new System.Drawing.Size(100, 50);
+            this.ComPictureBox.TabIndex = 5;
+            this.ComPictureBox.TabStop = false;
             // 
             // label2
             // 
@@ -144,32 +144,33 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Draw";
             // 
-            // label7
+            // Player_sc
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(162, 202);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "label7";
+            this.Player_sc.AutoSize = true;
+            this.Player_sc.Location = new System.Drawing.Point(162, 202);
+            this.Player_sc.Name = "Player_sc";
+            this.Player_sc.Size = new System.Drawing.Size(44, 16);
+            this.Player_sc.TabIndex = 11;
+            this.Player_sc.Text = "label7";
+            this.Player_sc.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label8
+            // Com_sc
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(162, 240);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "label8";
+            this.Com_sc.AutoSize = true;
+            this.Com_sc.Location = new System.Drawing.Point(162, 240);
+            this.Com_sc.Name = "Com_sc";
+            this.Com_sc.Size = new System.Drawing.Size(44, 16);
+            this.Com_sc.TabIndex = 12;
+            this.Com_sc.Text = "label8";
             // 
-            // label9
+            // Draw_sc
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(162, 273);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "label9";
+            this.Draw_sc.AutoSize = true;
+            this.Draw_sc.Location = new System.Drawing.Point(162, 273);
+            this.Draw_sc.Name = "Draw_sc";
+            this.Draw_sc.Size = new System.Drawing.Size(44, 16);
+            this.Draw_sc.TabIndex = 13;
+            this.Draw_sc.Text = "label9";
             // 
             // label10
             // 
@@ -186,24 +187,24 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.Draw_sc);
+            this.Controls.Add(this.Com_sc);
+            this.Controls.Add(this.Player_sc);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.ComPictureBox);
+            this.Controls.Add(this.PlayerPictureBox);
             this.Controls.Add(this.Scissors_B);
             this.Controls.Add(this.Peper_B);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Rock_B);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayerPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ComPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,16 +216,16 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Peper_B;
         private System.Windows.Forms.Button Scissors_B;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox PlayerPictureBox;
+        private System.Windows.Forms.PictureBox ComPictureBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Player_sc;
+        private System.Windows.Forms.Label Com_sc;
+        private System.Windows.Forms.Label Draw_sc;
         private System.Windows.Forms.Label label10;
     }
 }
